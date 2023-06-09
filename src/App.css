@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  outline:none !important;
+  border: none !important;
+}
+.gradient-button {
+  background: linear-gradient(to right, orange, rgb(233, 52, 52)) !important;
+  color:rgb(255, 255, 255) !important;
+  /* Add any other button styles as needed */
+  /* ... */
+}
+
+body{
+  color: linear-gradient(to right, orange, rgb(233, 52, 52));
+}
+
+
+/* TextForm Container */
+.textform-container{
+  min-height: 80vh;
+}
+
+/* Footer */
+footer{
+  height: 100px;
+}

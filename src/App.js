@@ -2,7 +2,7 @@ import './App.css';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
+import Footer from './components/Footer';
 import React, { useState } from 'react';
 
 
@@ -44,9 +44,10 @@ function App() {
       {/* <Navbar/> */}
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
-        <div className="container my-3">
+        <div className="container textform-container my-3">
           <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />
         </div>
+        <Footer/>
       </>
       );
 }
